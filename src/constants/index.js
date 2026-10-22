@@ -114,11 +114,11 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "PostgreSQL", "MySQL"],
   },
   {
     category: "Dev Tools",
@@ -132,28 +132,16 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/AasthaShukla555",
   },
+  
+  
   {
     id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://jsmastery.com/",
-  },
-  {
-    id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
-    bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
-  },
-  {
-    id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/aastha-shukla-986244291/",
   },
 ];
 
@@ -225,7 +213,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "6502 CPU Emulator",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,19 +221,19 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "6502 CPU Emulator Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "The 6502 CPU Emulator is a Python-based project designed to simulate the working of the classic 6502 microprocessor.",
+            "Instead of just displaying instructions, it executes machine operations step by step, demonstrating how the CPU processes instructions, manages registers, and interacts with memory.",
+            "Think of it like having a virtual 6502 processor right on your laptop—where you can explore how a real CPU works without needing physical hardware.",
+            "It's built with Python and Streamlit, providing an interactive interface to execute instructions, visualize CPU operations, and understand low-level computing concepts."
           ],
         },
-        {
+        /*{
           id: 2,
           name: "nike.com",
           icon: "/images/safari.png",
@@ -264,21 +252,21 @@ const WORK_LOCATION = {
           imageUrl: "/images/project-1.png",
         },
         {
-          id: 5,
+          id: 2,
           name: "Design.fig",
           icon: "/images/plain.png",
           kind: "file",
           fileType: "fig",
           href: "https://google.com",
           position: "top-60 right-20",
-        },
+        },*/
       ],
     },
 
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "Web-Based E2E Chat Application",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -286,19 +274,19 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "Web-Based E2E Chat Application Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "The E2E Encrypted Chat Application is a secure, real-time messaging platform designed to keep conversations private and protected.",
+            "Instead of sending messages in plain text, it uses end-to-end encryption to ensure that only the intended recipients can read the messages.",
+            "Think of it like having a private digital conversation room—where messages stay encrypted and protected from unauthorized access.",
+            "It's built with React, Vite, Socket.IO, libsodium, and MongoDB, delivering real-time communication, strong encryption, and a seamless web-based messaging experience."
           ],
         },
-        {
+        /*{
           id: 2,
           name: "ai-resume-analyzer.com",
           icon: "/images/safari.png",
@@ -324,14 +312,14 @@ const WORK_LOCATION = {
           fileType: "fig",
           href: "https://google.com",
           position: "top-60 left-5",
-        },
+        },*/
       ],
     },
 
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Anime Community Platform",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,19 +327,19 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Anime Community Platform Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "Our Anime Community Platform is an interactive space designed for anime fans to explore their favorite series, discover new shows, and connect with anime enthusiasts.",
+            "Instead of simply watching anime, users can explore anime-related content, share their interests, and enjoy a community-driven experience.",
+            "Think of it like a digital hangout for anime lovers—where fans can discover, explore, and celebrate their favorite anime worlds together.",
+            "It's built with React, delivering a responsive interface, smooth navigation, and an engaging web experience across different devices."
           ],
         },
-        {
+        /*{
           id: 2,
           name: "food-delivery-app.com",
           icon: "/images/safari.png",
@@ -377,7 +365,7 @@ const WORK_LOCATION = {
           fileType: "fig",
           href: "https://google.com",
           position: "top-60 right-20",
-        },
+        },*/
       ],
     },
   ],
@@ -406,19 +394,11 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/adrian-2.jpeg",
     },
+   
     {
       id: 3,
-      name: "conference-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
-    },
-    {
-      id: 4,
       name: "about-me.txt",
       icon: "/images/txt.png",
       kind: "file",
@@ -427,10 +407,10 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/adrian.jpg",
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+       "Hey! I’m Aastha 👋, a Computer Science student and developer who enjoys building interactive web applications and experimenting with creative tech projects.",
+        "I work with React, JavaScript, Python, and modern web technologies—and I love turning ideas into functional, user-friendly experiences.",
+        "I’m passionate about clean UI, smooth interactions, problem-solving, and building projects that combine creativity with real-world functionality.",
+        "Outside of coding, you’ll find me exploring new technologies, experimenting with electronics, diving into anime, or working on my next project while figuring out what cool thing to build next 😅"
       ],
     },
   ],
