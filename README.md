@@ -1,16 +1,116 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Mac OS Portfolio
 
-Currently, two official plugins are available:
+An interactive, macOS-inspired portfolio built to showcase my projects, technical skills, and personality through a familiar desktop experience. Explore interactive windows, a dock-style launcher, and a clean interface inspired by the macOS environment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- **macOS-Inspired UI:** A desktop-style interface with a dock and interactive windows.
+- **Window Management:** Explore different sections of the portfolio through individual windows.
+- **Interactive Dock:** Quick access to different sections with smooth animations.
+- **Resume Viewer:** View and download my resume directly from the portfolio.
+- **Image Viewer:** Browse images in a dedicated window.
+- **Finder Experience:** Explore portfolio content through a desktop-inspired file browser.
+- **Responsive Interface:** A user-friendly experience across different screen sizes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React, JavaScript
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **State Management:** Zustand
+- **Animations:** GSAP
+- **Icons:** Lucide React
+- **PDF Rendering:** React PDF
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+portfolio/
+├── public/
+│   ├── files/
+│   │   └── Resumeaastha.pdf
+│   └── images/
+├── src/
+│   ├── components/
+│   ├── hoc/
+│   ├── store/
+│   ├── windows/
+│   ├── constants/
+│   ├── App.jsx
+│   └── main.jsx
+├── package.json
+└── vite.config.js
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/AasthaShukla555/mac-portfolio.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd mac-portfolio
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open the local URL displayed in your terminal.
+
+## Production Build
+
+To create a production-ready build, run:
+
+```bash
+npm run build
+```
+
+The optimized production files will be generated in the `dist` directory.
+
+To preview the production build locally, run:
+
+```bash
+npm run preview
+```
+
+## Deployment
+
+This project can be deployed using platforms such as Netlify or Vercel.
+
+**Netlify configuration:**
+- Build command: `npm run build`
+- Publish directory: `dist`
+
+## Author
+
+**Aastha Shukla**
+
+Computer Science Engineering student interested in software development, interactive web experiences, and building practical projects.
+
+- **GitHub:** [AasthaShukla555](https://github.com/AasthaShukla555)
+
+## License
+
+This project is intended for personal portfolio and educational purposes.
